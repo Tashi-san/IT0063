@@ -1,0 +1,36 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.15vw;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.5s
+}
+header {
+    background-color: #707070;
+    color: #fff;
+    padding: 10px 0;
+}
+
+
+.main-section {
+    font-family: Garamond, serif;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    flex: 1;
+    border: 1px solid #ddd;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#colorChangeButton {
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
